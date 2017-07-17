@@ -1,0 +1,72 @@
+
+---Upload files---
+Widget file was not uploaded. Error: File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.
+
+---Upload files---
+Customizer file was not uploaded. Error: File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 0
+Files info:
+Site URL = http://192.168.1.66/wpdance_jewelry/trunk/site
+Data file = E:\XAMPP\htdocs\wpdance_jewelry\trunk\site/wp-content/uploads/2016/07/wdjewelry.wordpress.2016-07-13.xml
+Widget file = not defined!
+Customizer file = not defined!
+
+------
+Completed AJAX call number: 1
+[WARNING] Failed to import pa_color black
+[WARNING] Failed to import pa_color blue
+[WARNING] Failed to import pa_color green
+[WARNING] Failed to import pa_size LARGE
+[WARNING] Failed to import ts_logos_category logo jewelry
+[WARNING] Failed to import pa_size MEDIUM
+[WARNING] Failed to import pa_color purple
+[WARNING] Failed to import pa_color red
+[WARNING] Failed to import pa_size SMALL
+[WARNING] Failed to import pa_color white
+
+
+------
+Completed AJAX call number: 2
+[WARNING] Failed to import pa_color black
+[WARNING] Failed to import pa_color blue
+[WARNING] Failed to import pa_color green
+[WARNING] Failed to import pa_size LARGE
+[WARNING] Failed to import ts_logos_category logo jewelry
+[WARNING] Failed to import pa_size MEDIUM
+[WARNING] Failed to import pa_color purple
+[WARNING] Failed to import pa_color red
+[WARNING] Failed to import pa_size SMALL
+[WARNING] Failed to import pa_color white
+
+
+---Importing content---
+[WARNING] Failed to import pa_color black
+[WARNING] Failed to import pa_color blue
+[WARNING] Failed to import pa_color green
+[WARNING] Failed to import pa_size LARGE
+[WARNING] Failed to import ts_logos_category logo jewelry
+[WARNING] Failed to import pa_size MEDIUM
+[WARNING] Failed to import pa_color purple
+[WARNING] Failed to import pa_color red
+[WARNING] Failed to import pa_size SMALL
+[WARNING] Failed to import pa_color white
+[WARNING] Failed to import "logo1": Invalid post type ts_logos
+[WARNING] Failed to import "logo2": Invalid post type ts_logos
+[WARNING] Failed to import "logo3": Invalid post type ts_logos
+[WARNING] Failed to import "logo4": Invalid post type ts_logos
+[WARNING] Failed to import "logo5": Invalid post type ts_logos
+[WARNING] Failed to import "logo6": Invalid post type ts_logos
+[WARNING] Failed to import "logo7": Invalid post type ts_logos
+[WARNING] Could not find the post parent for "partners_logo_1" (post #118)
+[WARNING] Could not find the post parent for "partners_logo_2" (post #119)
+[WARNING] Could not find the post parent for "partners_logo_3" (post #125)
+[WARNING] Could not find the post parent for "partners_logo_4" (post #126)
+[WARNING] Could not find the post parent for "partners_logo_5" (post #127)
+[WARNING] Could not find the post parent for "partners_logo_6" (post #128)
+[WARNING] Could not find the post parent for "partners_logo_7" (post #129)
+[WARNING] Could not find the author for comment #3
+
+Max execution time after content import = 300
