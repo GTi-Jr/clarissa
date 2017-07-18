@@ -38,7 +38,7 @@ if(!function_exists('wdjewelry_mini_cart')){
 								$product_price = apply_filters( 'woocommerce_cart_item_price', $woocommerce->cart->get_product_price( $_product ), $cart_item, $cart_item_key );
 								?>
 								<div class='wd_cart_item'>
-									<a href='<?php echo esc_url(get_permalink($product_id)); ?>'><?php echo wp_kses_post($thumbnail); ?></a>
+									<a href='<?php echo esc_url(get_permalink($product_id)); ?>'><?php echo ($thumbnail); /*wp_kses_post($thumbnail)*/ ?></a>
 									<div class='content_item'>
 										<a href='<?php echo esc_url(get_permalink($product_id)); ?>'><?php echo wp_kses_post($product_name); ?></a>
 										<div class='item_price'>

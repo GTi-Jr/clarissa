@@ -21,7 +21,7 @@ class WD_Quickshop
 	public function add_quickshop_button(){
 	
 		global $wd_data,$post, $product, $woocommerce;;
-		$btn_label = __("QUICK SHOP","wpdance");	
+		$btn_label = __("","wpdance");	
 		$prod_url = get_admin_url()	. "admin-ajax.php?ajax=true&action=load_product_content&product_id=".$product->get_id();	
 ?>
 
@@ -29,7 +29,7 @@ class WD_Quickshop
 			<span class="qs_inner1">
 				<span class="qs_inner2"> 
 					<?php 
-						echo $btn_label;
+						// echo $btn_label;
 					?>
 				</span>
 			</span>
@@ -233,7 +233,7 @@ class WD_Quickshop
 				?>
 				
 					<div class="details_view">
-						<a href="<?php echo the_permalink();?>" title="<?php _e('View Details','wpdance');?>" ><?php _e('View Details','wpdance');?></a>
+						<a href="<?php echo the_permalink();?>" title="<?php _e('Ver Detalhes','wpdance');?>" ><?php _e('Ver Detalhes','wpdance');?></a>
 					</div>
 					
 				</div>

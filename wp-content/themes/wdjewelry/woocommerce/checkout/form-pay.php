@@ -25,9 +25,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<table class="shop_table">
 		<thead>
 			<tr>
-				<th class="product-name"><?php esc_html_e( 'Product', 'wdjewelry' ); ?></th>
-				<th class="product-quantity"><?php esc_html_e( 'Qty', 'wdjewelry' ); ?></th>
-				<th class="product-total"><?php  esc_html_e( 'Totals', 'wdjewelry' ); ?></th>
+				<th class="product-name"><?php esc_html_e( 'Produto', 'wdjewelry' ); ?></th>
+				<th class="product-quantity"><?php esc_html_e( 'Qnt', 'wdjewelry' ); ?></th>
+				<th class="product-total"><?php  esc_html_e( 'Total', 'wdjewelry' ); ?></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -38,8 +38,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<?php echo esc_html( $item['name'] ); ?>
 							<?php $order->display_item_meta( $item ); ?>
 						</td>
-						<td class="product-quantity"><?php echo esc_html( $item['qty'] ); ?></td>
-						<td class="product-subtotal"><?php echo esc_html($order->get_formatted_line_subtotal( $item )); ?></td>
+						<td class="product-quantity"><?php echo ( $item['qty'] ); ?></td>
+						<td class="product-subtotal"><?php echo ($order->get_formatted_line_subtotal( $item )); ?></td>
 					</tr>
 				<?php endforeach; ?>
 			<?php endif; ?>
@@ -48,8 +48,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php if ( $totals = $order->get_order_item_totals() ) : ?>
 				<?php foreach ( $totals as $total ) : ?>
 					<tr>
-						<th scope="row" colspan="2"><?php echo esc_html($total['label']); ?></th>
-						<td class="product-total"><?php echo esc_html($total['value']); ?></td>
+						<th scope="row" colspan="2"><?php echo ($total['label']); ?></th>
+						<td class="product-total"><?php echo ($total['value']); ?></td>
 					</tr>
 				<?php endforeach; ?>
 			<?php endif; ?>
