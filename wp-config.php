@@ -27,7 +27,7 @@ define('DB_NAME', 'clarissa');
 define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'bezerrae');
 
 /** Nome do host do MySQL */
 define('DB_HOST', 'localhost');
@@ -93,3 +93,5 @@ if ( !defined('ABSPATH') )
 
 /** Configura as variáveis e arquivos do WordPress. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('FS_METHOD','direct');

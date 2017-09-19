@@ -14,11 +14,11 @@ if(!function_exists('wdjewelry_mini_cart')){
 				<?php printf(__('<a href="%s"><i class="fa fa-shopping-cart fa-lg"></i><span>%s</span></a>','wdjewelry'), esc_url($woocommerce->cart->get_cart_url()),$woocommerce->cart->get_cart_contents_count()); ?>
 			</div>
 			<div class="cart_content hidden-xs">
-			<div class='wd_mini_cart'><?php printf(__('<span class="text-cart"><a href="%s" title="cart">Carrinho</a><span class="text-cart__count">%s</span> </span>','wdjewelry'), esc_url($woocommerce->cart->get_cart_url()),$woocommerce->cart->get_cart_contents_count()); ?></div>
+			<div class='wd_mini_cart'><?php printf(__('<span class="text-cart"><a href="%s" title="cart">Meu Porta Jóias</a><span class="text-cart__count">%s</span> </span>','wdjewelry'), esc_url($woocommerce->cart->get_cart_url()),$woocommerce->cart->get_cart_contents_count()); ?></div>
 			<div class ='wd_content_mini_cart'>
 				<?php 
 					if($_cart_empty):
-						echo '<span>'.esc_html__('voce não itens no seu carrinho.','wdjewelry').'</span>';
+						echo '<span>'.esc_html__('Você não tem itens no seu Porta Jóias.','wdjewelry').'</span>';
 					else:
 						$count_max =2;
 						$count = 0;
@@ -57,7 +57,7 @@ if(!function_exists('wdjewelry_mini_cart')){
 					<p class="total"><strong><?php esc_html_e( 'Subtotal', 'wdjewelry' ); ?>:</strong> <?php echo WC()->cart->get_cart_subtotal(); ?></p>
 					<?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
 					<p class="buttons">
-						<a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="button wc-forward"><?php esc_html_e( 'Ver Carrinho', 'wdjewelry' ); ?></a>
+						<a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="button wc-forward"><?php esc_html_e( 'Ver Meu Porta Jóias', 'wdjewelry' ); ?></a>
 						<a href="<?php echo esc_url( wc_get_checkout_url() ); ?>" class="button checkout wc-forward"><?php echo esc_html__( 'Finalizar', 'wdjewelry' ); ?></a>
 					</p>
 					</div>

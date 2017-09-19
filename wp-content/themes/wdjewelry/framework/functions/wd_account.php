@@ -28,24 +28,29 @@
 			<?php if(!is_user_logged_in()): ?>
 				<form method="post" class="login"> 
 				<p class="form-row form-row-first">
-					<input type="text" class="input-text" placeholder="<?php esc_attr_e('User Name','wdjewelry')?> " name="username" id="username" />
+					<input type="text" class="input-text" placeholder="<?php esc_attr_e('Login','wdjewelry')?> " name="username" id="username" />
 				</p>
 				<p class="form-row form-row-last">
-					<input class="input-text" type="password" placeholder="<?php esc_attr_e('Password','wdjewelry'); ?>" name="password" id="password" />
+					<input class="input-text" type="password" placeholder="<?php esc_attr_e('Senha','wdjewelry'); ?>" name="password" id="password" />
 				</p>
 				<div class="clear"></div>
 
 				<p class="btn_login">
 					<?php wp_nonce_field( 'woocommerce-login' ); ?>
-					<input type="submit" class="button" name="login" value="<?php esc_attr_e( 'Login', 'wdjewelry' ); ?>" />
+					<input type="submit" class="button" name="login" value="<?php esc_attr_e( 'Entrar', 'wdjewelry' ); ?>" />
 					<input type="hidden" name="redirect" value="<?php echo esc_url( $redirect ) ?>" />
 					
 				</p>
 				<p class="lost_password">
 					<label for="rememberme" class="inline">
-						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> <?php esc_html_e( 'Remember me', 'wdjewelry' ); ?>
+						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> <?php esc_html_e( 'Manter Conectado', 'wdjewelry' ); ?>
 					</label>
-					<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'wdjewelry' ); ?></a>
+					<p>
+						<a href="http://localhost/clarissa/minha-conta/" ><?php esc_html_e( 'Registre-se', 'wdjewelry' ); ?></a>
+					</p>
+					<p>
+						<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Esqueceu a Senha?', 'wdjewelry' ); ?></a>
+					</p>
 				</p>
 
 				<div class="clear"></div>

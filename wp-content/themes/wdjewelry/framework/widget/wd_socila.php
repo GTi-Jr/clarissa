@@ -66,14 +66,14 @@ if (!class_exists("WD_follow")) {
 					<li class="icon-facebook"><a class="fa fa-facebook" href="<?php echo esc_attr($instance['facebook']); ?>" target="_blank" title="<?php esc_html_e('Facebook', 'wdjewelry');?>" ></a></li>
           <?php endif;?>
           <?php if($instance['twitter']!=''):?>
-					<li class="icon-twitter"><a class="fa fa-twitter" href="<?php echo esc_attr($instance['twitter']); ?>" target="_blank" title="<?php esc_html_e('Twitter', 'wdjewelry');?>" ></a></li>
+					<li class="icon-instagram"><a class="fa fa-instagram" href="https://www.instagram.com/c.gondim/" target="_blank" title="<?php esc_html_e('Instagram', 'wdjewelry');?>" ></a></li>
           <?php endif; ?>
-          <?php if($instance['pin']!=''):?>
+          <!-- <?php if($instance['pin']!=''):?>
 					<li class="icon-pin hidden-xs"><a class="fa fa-pinterest" href="<?php echo esc_attr($instance['pin']); ?>" target="_blank" title="<?php esc_html_e('Pinterest', 'wdjewelry');?>" ></a></li>
-          <?php endif; ?>
-          <?php if($instance['google_plus']!=''):?>
+          <?php endif; ?> -->
+          <!-- <?php if($instance['google_plus']!=''):?>
 					<li class="icon-google"><a class="fa fa-google-plus" href="<?php echo esc_attr($instance['google_plus']); ?>" target="_blank" title="<?php esc_html_e('Google Plus', 'wdjewelry');?>" ></a></li>
-          <?php endif; ?>
+          <?php endif; ?> -->
 				</ul>
 				</div>
 

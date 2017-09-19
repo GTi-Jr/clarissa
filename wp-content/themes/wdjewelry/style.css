@@ -120,7 +120,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .text, .woocommerce .products li.product .price del, .woocommerce-page .products li.product .price del, .woocommerce div.product .summary .woocs_price_code del, .woocommerce-page div.product .summary .woocs_price_code del, .woocommerce table.wishlist_table .woocs_price_code del, .woocommerce div.product .posted_in a, .woocommerce div.product .tagged_as a, .woocommerce div.product .sku_wrapper a, .woocommerce-page div.product .posted_in a, .woocommerce-page div.product .tagged_as a, .woocommerce-page div.product .sku_wrapper a, .woocommerce div.product .content-measurements a, .woocommerce div.product .content-shipping a, .woocommerce div.product .content-size-chart a, .woocommerce-page div.product .content-measurements a, .woocommerce-page div.product .content-shipping a, .woocommerce-page div.product .content-size-chart a, .woocommerce div.product #tab-reviews #reply-title, .woocommerce-page div.product #tab-reviews #reply-title, .home.blog .wd_content > div .wd_link_home a, .content_blog .wd_link_home a, .single-post .related_post .wd-url-home a, .single-post .comment .wd-url-home a, .single-post .wd_content_single .wd_single_home a, .single-post .wd_content_single .wd_single_tag a, .home.blog .wd_content > div .wd_content_tag a, .home.blog .wd_content > div .wd_content_category a, .page-links > a, .wd_content_tag a, .wd_content_category a, html body, label, .label, .woocommerce nav.woocommerce-pagination a, .woocommerce-page nav.woocommerce-pagination a, .navigation a, .content_author a, #comments ol li .date_comment a, #comments ol li .comment-reply-link {
-  color: #272727;
+/*  color: #a1b7da*/
 }
 
 .border_color, .woocommerce .woocommerce-cart .product-quantity .quantity button, .woocommerce.woocommerce-cart .product-quantity .quantity button, .woocommerce-page .woocommerce-cart .product-quantity .quantity button, .woocommerce-page.woocommerce-cart .product-quantity .quantity button, .woocommerce div.product .quantity button, .woocommerce-page div.product .quantity button, *, *:before, *:after {
@@ -736,7 +736,7 @@ input[type="submit"],
 .woocommerce .site-footer .clear-all, .woocommerce div.product .single_add_to_cart_button, .woocommerce-page div.product .single_add_to_cart_button, .woocommerce .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce.woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-page .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-page.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
   border-width: 1px;
   border-style: solid;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   overflow: visible;
   max-width: 100%;
   display: inline-block;
@@ -2869,8 +2869,8 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
   max-width: 700px;
   font-weight: normal;
   font-size: 13px;
-  color: #7d7d7d;
-}
+/*  color: #7d7d7d;
+*/}
 
 textarea {
   padding: 10px 15px;
@@ -3361,14 +3361,14 @@ div.pp_woocommerce .pp_close, div.pp_woocommerce .pp_close:hover {
 }
 
 .site-header .site-header-top {
-  font-size: 90%;
-  text-transform: uppercase;
-}
+  font-size: 93%;
+/*  text-transform: uppercase;
+*/}
 
 .site-header .site-header-top .site-header-top {
   position: relative;
   z-index: 1000;
-  border-width: 0 0 1px;
+  /*border-width: 0 0 1px;*/
   border-style: solid;
 }
 
@@ -4588,7 +4588,7 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
   display: inline-block;
   overflow: hidden;
   color: #000;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 13px;
   margin: 0 0 0 10px;
 }
@@ -4615,9 +4615,8 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
 .footer-content-top h1, .footer-content-top h2, .footer-content-top h3, .footer-content-top h4, .footer-content-top h5, .footer-content-top h6, .footer-content-top .widget-title, .footer-content-top .widgettitle, .footer-content-top .widget-title, .footer-content-top .widgettitle {
   font-size: 130%;
   padding-bottom: 20px;
-  text-transform: uppercase;
-  margin: 0 0 55px;
-  background: url(images/line_star.png) no-repeat 50% 100%;
+  /* text-transform: uppercase*/
+  margin: 0 0 0px;
 }
 
 .footer-content-top h1 a, .footer-content-top h2 a, .footer-content-top h3 a, .footer-content-top h4 a, .footer-content-top h5 a, .footer-content-top h6 a, .footer-content-top .widget-title a, .footer-content-top .widgettitle a, .footer-content-top .widget-title a, .footer-content-top .widgettitle a {
@@ -4645,8 +4644,8 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
 
 .footer-content-main h1, .footer-content-main h2, .footer-content-main h3, .footer-content-main h4, .footer-content-main h5, .footer-content-main h6, .footer-content-main .widget-title, .footer-content-main .widgettitle {
   font-size: 100%;
-  text-transform: uppercase;
-  margin: 0 0 15px;
+/*  text-transform: uppercase;*/  
+margin: 0 0 15px;
 }
 
 .footer-content-main h1 a, .footer-content-main h2 a, .footer-content-main h3 a, .footer-content-main h4 a, .footer-content-main h5 a, .footer-content-main h6 a, .footer-content-main .widget-title a, .footer-content-main .widgettitle a {
@@ -4671,8 +4670,8 @@ div[class^="footer-content-main__"] {
 
 .footer-content-bottom h1, .footer-content-bottom h2, .footer-content-bottom h3, .footer-content-bottom h4, .footer-content-bottom h5, .footer-content-bottom h6, .footer-content-bottom .widget-title, .footer-content-bottom .widgettitle {
   font-size: 100%;
-  text-transform: uppercase;
-  margin: 0 0 15px;
+/*  text-transform: uppercase;*/  
+margin: 0 0 15px;
 }
 
 .footer-content-bottom h1 a, .footer-content-bottom h2 a, .footer-content-bottom h3 a, .footer-content-bottom h4 a, .footer-content-bottom h5 a, .footer-content-bottom h6 a, .footer-content-bottom .widget-title a, .footer-content-bottom .widgettitle a {
@@ -6483,7 +6482,7 @@ article.page {
 /* -------------- SC Heading */
 .vc_custom_heading {
   padding-bottom: 20px;
-  background: url(images/line_star.png) no-repeat 50% 100%;
+ /*background: url(images/line_star.png) no-repeat 50% 100%;*/
 }
 
 /* -------------- SC Brand Slider */

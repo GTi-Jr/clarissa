@@ -69,7 +69,7 @@ if ( apply_filters( 'vc_custom_heading_template_use_wrapper', false ) ) {
 	$output .= '</' . $font_container_data['values']['tag'] . '>';
 	$output .= '</div>';
 } else {
-	$output .= '<' . $font_container_data['values']['tag'] . ' ' . $style . ' class="' . esc_attr( $css_class ) . '" ' . implode( ' ', $wrapper_attributes ) . '>';
+	$output .= '<' . $font_container_data['values']['tag'] . ' ' . $style . ' class="' .  '" ' . implode( ' ', $wrapper_attributes ) . '>';
 	$output .= $text;
 	$output .= '</' . $font_container_data['values']['tag'] . '>';
 }

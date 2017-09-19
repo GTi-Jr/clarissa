@@ -31,3 +31,4 @@ if (!function_exists('wdjewelry_share_social')) {
 }
 }
 ?>
+
