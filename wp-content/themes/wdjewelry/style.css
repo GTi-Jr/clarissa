@@ -72,7 +72,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .secondary_bg, .ts-vcsc-box-icon.icon_top-style:before, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce.widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page.widget_price_filter .ui-slider .ui-slider-range {
-  background-color: #f2e4cc;
+/*  background-color: #f2e4cc;*/
 }
 
 .body_bg, html body, .site-header .site-header-top .site-header-top, .site-header-main {
@@ -1134,6 +1134,8 @@ input[type="submit"],
 .vc_btn3,
 .clear-all, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button[type^="submit"], .woocommerce a.button.alt, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button[type^="submit"], .woocommerce-page a.button.alt, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit[disabled]:disabled, .woocommerce a.button:disabled, .woocommerce a.button[disabled]:disabled, .woocommerce button.button:disabled, .woocommerce button.button[disabled]:disabled, .woocommerce input.button[type^="submit"]:disabled, .woocommerce input.button[type^="submit"][disabled]:disabled, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt[disabled]:disabled, .woocommerce-page #respond input#submit:disabled, .woocommerce-page #respond input#submit[disabled]:disabled, .woocommerce-page a.button:disabled, .woocommerce-page a.button[disabled]:disabled, .woocommerce-page button.button:disabled, .woocommerce-page button.button[disabled]:disabled, .woocommerce-page input.button[type^="submit"]:disabled, .woocommerce-page input.button[type^="submit"][disabled]:disabled, .woocommerce-page a.button.alt:disabled, .woocommerce-page a.button.alt[disabled]:disabled {
   padding: 7px 30px;
+  width: 200px;
+  text-align: center;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -2585,7 +2587,7 @@ a:hover, a:focus {
 img {
   border: 0;
   margin: 0 0 10px;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -3402,11 +3404,19 @@ header.site-header {
 
 .site-header-main > div {
   position: relative;
+  float: middle;
 }
 
 .header-main-logo {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  position: absolute;
+  top:20px;
+  left: 40%; 
+}
+.header-main-logo img{
+   width: 300px;
+
+  
+
 }
 
 .header-main-logo img {
@@ -3602,6 +3612,7 @@ header.site-header {
 
 .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target {
   font-size: 14px;
+  font-weight: 600;
   padding: 24px 17px;
 }
 
@@ -3745,7 +3756,7 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
 /* -------- ACCOUNT */
 .header-top-right-account {
   float: right;
-  padding: 0 0 0 30px;
+  padding: 13px 6px 0 0px;
 }
 
 .header-top-right-account .logout_wrapper:before {
@@ -3923,7 +3934,7 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
   cursor: pointer;
   display: inline-block;
   position: absolute !important;
-  right: -23px;
+  right: 0px;
   top: 0;
   width: 50px;
   height: 66px;
@@ -4075,14 +4086,12 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
 
 /* -------- CART */
 .cart_content {
-  position: absolute !important;
-  top: 0;
-  right: 15px;
+
   display: inline-block;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  z-index: 10;
+
 }
 
 .cart_content > div:nth-child(2), .cart_content > ul, .cart_content > form {
@@ -4126,7 +4135,7 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
 }
 
 .cart_content .wd_mini_cart {
-  padding: 22px 0 21px 15px;
+  padding: 9px 0 21px 15px;
 }
 
 .cart_content .wd_mini_cart > span {
@@ -4158,7 +4167,7 @@ div .ubermenu .ubermenu-autocolumn, div .ubermenu .ubermenu-submenu-type-stack {
   top: 3px;
   right: auto;
   bottom: auto;
-  left: -15px;
+  left: -10px;
 }
 
 .cart_content .wd_mini_cart > span span {
@@ -6921,9 +6930,16 @@ div.ts-team3:hover .ts-teammate-icons {
   position: absolute;
   top: auto;
   right: 0;
-  bottom: 0;
+  bottom: -80px;
   left: 0;
   padding: 15px;
+}
+
+.ts-icon-box-inner:hover>.box-detail-wrapper{
+  bottom: 0;
+}
+.box-detail-wrapper{
+   transition: 1s;
 }
 
 .ts-vcsc-box-icon.icon_top-style .ts-icon-box-inner .ts-box-icon-link {
@@ -6941,7 +6957,7 @@ div.ts-team3:hover .ts-teammate-icons {
 }
 
 .ts-vcsc-box-icon.icon_top-style:hover:before {
-  opacity: 1;
+  opacity: 0;
 }
 
 .ts-vcsc-box-icon.icon_top-style:hover img {
@@ -7834,4 +7850,9 @@ body.search .content_blog article:hover {
 
 .rtl div.ts-team2 div.ts-team2-content {
   padding-left: 20px;
+}
+
+.social-icons{
+  position: absolute;
+  top: 10px;
 }

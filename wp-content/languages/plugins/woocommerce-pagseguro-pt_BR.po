@@ -597,7 +597,7 @@ msgstr "PagSeguro"
 
 #: includes/class-wc-pagseguro-api.php:611
 msgid "Too bad! The email or token from the PagSeguro are invalids my little friend!"
-msgstr "Que feio! O e-mail ou token do PagSeguro são inválidos amiguinho!"
+msgstr "O e-mail ou token do PagSeguro são inválidos!"
 
 #: includes/class-wc-pagseguro-api.php:379
 msgid "Order %s"
